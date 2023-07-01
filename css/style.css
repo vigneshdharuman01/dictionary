@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+
+body h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    margin-top:5rem;
+}
+
+.content{
+    background-color: white;
+    width: 90vmin;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0,0, 0, .2);
+    padding: 80px 50px;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.search-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid blueviolet;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.search-box button{
+    padding: .5rem;
+    width: 120px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color:blueviolet;
+    color: white;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.search-box button i{
+    margin-right: .5rem;
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.word p{
+    font-size: 25px;
+    color: #1f194c;
+    font-weight: 700;
+}
+
+.word button{
+    background-color: transparent;
+    color: blueviolet;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.word button i{
+    font-size: 20px;
+}
+
+.result .details{
+display: flex;
+gap: 10px;
+color: rgb(139, 126, 151);
+margin: 5px 0 20px 0;
+font-size: 14px;
+}
+
+.word-meaning{
+color: rgb(67, 64, 64);
+}
+
+.word-example{
+    color: black;
+    font-style: italic;
+    padding-left:20px;
+    margin-top: 30px;
+    border-left: 5px solid blueviolet;
+}
